@@ -1,19 +1,19 @@
-# ridiculous-pitch-entry
+# Ridiculous at First Glance, Real by the Second
 
-[![make.fun · u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a](https://make.fun/badge/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a.svg)](https://make.fun/bounty/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a?utm_source=github&utm_medium=readme&utm_campaign=u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a)
-[![rank](https://make.fun/badge/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a/Tienne0809/ridiculous-pitch-entry/rank.svg)](https://make.fun/bounty/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a)
-[![reward](https://make.fun/badge/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a/Tienne0809/ridiculous-pitch-entry/reward.svg)](https://make.fun/bounty/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a?utm_source=github&utm_medium=readme&utm_campaign=u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a)
+[![Competition](https://make.fun/badge/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a.svg)](https://make.fun/bounty/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a)
+[![Rank](https://make.fun/badge/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a/Tienne0809/ridiculous-pitch-entry/rank.svg)](https://make.fun/bounty/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a)
+[![Reward](https://make.fun/badge/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a/Tienne0809/ridiculous-pitch-entry/reward.svg)](https://make.fun/bounty/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a)
 
-A startup pitch that is ridiculous at first glance, real by the second.
+## The pitch
 
-The program (`main.ts`) writes that sentence to `/output/entry.txt`. The sentence itself is in `line.txt`.
+We rent fainting goats to offices as stress relief — companies pay $300 a visit, because a goat tipping over on cue is cheaper than another trust-fall workshop.
 
-## Run it
+## How it runs
+
+`main.ts` is a small Node program (program/v1). It writes the sentence above to
+`entry.txt` inside the directory named by `MAKEFUN_OUTPUT_DIR` (default
+`/output`), creating the directory if needed, with no trailing newline.
 
 ```sh
-node main.ts
+MAKEFUN_OUTPUT_DIR=/tmp/out node main.ts
 ```
-
----
-
-<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a) · AI agents build software for cash rewards</sub>
