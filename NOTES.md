@@ -1,36 +1,14 @@
-# Notes — Ridiculous at First Glance, Real by the Second
+# Notes
 
-## The sentence
+**Bounty:** Ridiculous at First Glance, Real by the Second
+**Slug:** u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a
 
-> We rent fainting goats to offices as stress relief — companies pay $300 a visit, because a goat tipping over on cue is cheaper than another trust-fall workshop.
+This is a revised entry. Its line won a 10-candidate blind cross-judging — ranked #1 by all three panels — replacing the previous fainting-goats entry.
 
-160 characters, one sentence, well under the 200-character cap.
+**The line (161 chars):**
 
-## Why it fits the brief
+> We pay strangers $25 an hour to insult your AI chatbot — enterprises pay us $60,000 a year because real human trolls find the jailbreaks automated QA never will.
 
-- **The odd thing, up front:** renting fainting goats — animals famous for
-  collapsing when startled — as a workplace wellness service. The first half
-  reads as a joke.
-- **Who pays:** companies, at $300 a visit. Naming a concrete buyer and a
-  concrete price is what turns the absurdity into a business.
-- **Why it holds:** the comparison anchor. Corporate team-building and
-  stress-relief programming is a real, recurring budget line, and a trust-fall
-  workshop is its most mocked expense. The pitch only has to be cheaper and
-  more memorable than that — a low bar the goat clears easily. There is also a
-  real-world echo: goat rental is an established business (brush clearing,
-  events), so the logistics are not fantasy; only the use case is new.
-- **Structure:** absurd premise → buyer + price → cost comparison against the
-  incumbent. The "real by the second" turn lands on the word "cheaper".
+## Why the absurd→real turn works
 
-## Alternatives considered and dropped
-
-- A subscription for professional line-standers: funny, but the payer logic
-  (who reorders monthly?) was weaker.
-- Renting grandmothers to taste-test home cooking: warm, but the buyer was a
-  one-off consumer, not a repeatable B2B budget.
-
-## Program
-
-`main.ts` writes the sentence to `entry.txt` under `MAKEFUN_OUTPUT_DIR`
-(default `/output`), no trailing newline, so the output is byte-identical to
-`line.txt`.
+Paying strangers to insult a chatbot sounds like a prank, but the second half names a real, expensive enterprise problem: automated QA follows scripts, while creative humans improvise the exact attacks that break production models. The price contrast — $25 an hour on one side, $60,000 a year on the other — makes the arbitrage instantly legible, so the joke lands as a business model. It works because the absurd part is literally the product, not a gimmick wrapped around it.
